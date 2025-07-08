@@ -39,7 +39,7 @@ jobs:
       # The '--yes' flag automatically answers "yes" to any prompts.
       # The '--environment=production' flag specifies that we are targeting the production environment.
       - name: Pull Vercel Environment Information
-        run: vercel pull --yes --environment=production --token=${{ secrets.VERCEL_TOKEN }}
+        run: vercel pull --yes --environment=production --token=${{ secrets.VERCEL_DEPLOY_TOKEN }}
 
       # Step 4: Build Project Artifacts
       # This command runs the build script for your project (e.g., 'next build', 'npm run build').
