@@ -1,6 +1,8 @@
 {
-  "rewrites": [{
-    "source": "/siri404",
-    "destination": "https://siri404.github.io/"
-  }]
+  "rewrites": [
+    {
+      "source": "/siri404",
+      "destination": "https://siri404.github.io/"
+    }
+  ]
 }
