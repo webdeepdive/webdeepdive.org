@@ -1,4 +1,4 @@
-var cnames_active = {
+cont cnames_active = {
   "siri404": "siri404.github.io"
   /*
    * please don't add your subdomain records down here!
